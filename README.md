@@ -48,7 +48,7 @@ The goal is to highlight both my **academic progress** and **technical developme
 
 This repository documents my academic journey throughout the Bachelor of Computer Science (Data Engineering) programme at Universiti Teknologi Malaysia (UTM). It showcases assignments, projects, reports, practical work, and reflections that demonstrate my growth in technical knowledge, problem-solving, and professional development.
 
-### 📖 Year 1
+### 📖 [Year 1](https://github.com/JOANNE-321/UTM_CourseWork/tree/main/Year%201)
 
 Built a strong foundation in computing, mathematics, and logical thinking through introductory courses and fundamental concepts.
 
@@ -62,7 +62,7 @@ Built a strong foundation in computing, mathematics, and logical thinking throug
 
 ---
 
-### 💻 Year 2
+### 💻 [Year 2](https://github.com/JOANNE-321/UTM_CourseWork/tree/main/Year%202)
 
 Developed practical skills in software development, system design, and database management through coursework and team projects.
 
@@ -78,7 +78,7 @@ Developed practical skills in software development, system design, and database 
 
 ---
 
-### 📊 Year 3
+### 📊 [Year 3](https://github.com/JOANNE-321/UTM_CourseWork/tree/main/Year%203)
 
 Focused on data processing, analytics, business intelligence, and modern data engineering technologies.
 
