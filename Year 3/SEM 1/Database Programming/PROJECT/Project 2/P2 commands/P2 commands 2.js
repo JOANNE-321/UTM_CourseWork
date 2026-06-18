@@ -1,0 +1,523 @@
+//B1 Insert
+//users
+//insertOne
+db.users.insertOne([
+    {
+    _id:"u1", 
+    name:"Ali Hassan", 
+    email:"ali@gmail.com", 
+    interests:["music","tech"], 
+    address:{city:"KL",country:"MY"}, 
+    createdAt:new Date("2025-12-01")
+  }
+])
+
+//insertMany
+db.users.insertMany([
+	{
+    _id:"u2", 
+    name:"Bella Lim", 
+    email:"bella@gmail.com", 
+    interests:["art","music"], 
+    address:{city:"Penang",country:"MY"}, 
+    createdAt:new Date("2025-12-02")
+  },
+	{
+    _id:"u3", 
+    name:"Charlie Tan", 
+    email:"charlie@gmail.com", 
+    interests:["sports"], 
+    address:{city:"Johor",country:"MY"}, 
+    createdAt:new Date("2025-12-03")
+  },
+	{
+    _id:"u4", 
+    name:"Nur Damia", 
+    email:"damia@gmail.com", 
+    interests:["tech"], 
+    address:{city:"KL",country:"MY"}, 
+    createdAt:new Date("2025-12-04")
+  },
+	{
+    _id:"u5", 
+    name:"Emily Chan", 
+    email:"emily@gmail.com", 
+    interests:["music","sports"], 
+    address:{city:"Melaka",country:"MY"}, 
+    createdAt:new Date("2025-12-05")
+  },
+	{
+    _id:"u6", 
+    name:"Nur Farah", 
+    email:"farah@gmail.com", 
+    interests:["business"], 
+    address:{city:"KL",country:"MY"}, 
+    createdAt:new Date("2025-12-06")
+  },
+	{
+    _id:"u7", 
+    name:"Gabby Wong", 
+    email:"gabby@gmail.com", 
+    interests:["tech","gaming"], 
+    address:{city:"Ipoh",country:"MY"}, 
+    createdAt:new Date("2025-12-07")
+  },
+	{
+    _id:"u8", 
+    name:"Hani Nabila", 
+    email:"hani@gmail.com", 
+    interests:["art"], 
+    address:{city:"KL",country:"MY"}, 
+    createdAt:new Date("2025-12-08")
+  },
+	{
+    _id:"u9", 
+    name:"Iman Rosli", 
+    email:"iman@gmail.com", 
+    interests:["sports"], 
+    address:{city:"Shah Alam",country:"MY"}, 
+    createdAt:new Date("2025-12-09")
+  },
+	{
+    _id:"u10", 
+    name:"Jumail Ahmad", 
+    email:"jumail@gmail.com", 
+    interests:["music","fashion"], 
+    address:{city:"KL",country:"MY"}, 
+    createdAt:new Date("2025-12-10")
+  }
+])
+
+
+//events
+//insertOne
+db.events.insertOne([
+ { 
+  _id:"e1", 
+  title:"Tech Conference",
+  category:"Technology", 
+  date:new Date("2026-03-10"), 
+  price:150, 
+  capacity:200,
+  location:{city:"KL"} 
+ }
+])
+
+//insertMany
+db.events.insertMany([
+{ 
+ _id:"e2", 
+ title:"Music Fest", 
+ category:"Music", 
+ date:new Date("2026-02-05"), 
+ price:120, 
+ capacity:300, 
+ location:{city:"Penang"} 
+},
+{ 
+ _id:"e3",
+ title:"Startup Meetup",
+ category:"Business",
+ date:new Date("2026-01-25"), 
+ price:80, 
+ capacity:100, 
+ location:{city:"KL"} 
+},
+{ 
+ _id:"e4", 
+ title:"Art Expo", 
+ category:"Art", 
+ date:new Date("2026-04-01"), 
+ price:60, 
+ capacity:150,  
+ location:{city:"Melaka"} 
+},
+{ 
+ _id:"e5", 
+ title:"Gaming Convention", 
+ category:"Gaming", 
+ date:new Date("2026-05-12"), 
+ price:90, 
+ capacity:250, 
+ location:{city:"KL"} 
+},
+{ 
+ _id:"e6", 
+ title:"Food Carnival", 
+ category:"Food", 
+ date:new Date("2026-02-20"), 
+ price:50, 
+ capacity:400, 
+ location:{city:"Ipoh"} 
+},
+{ 
+ _id:"e7", 
+ title:"Fitness Camp", 
+ category:"Sports", 
+ date:new Date("2026-06-10"), 
+ price:100, 
+ capacity:100, 
+ location:{city:"Johor"} 
+},
+{ 
+ _id:"e8", 
+ title:"Photography Workshop", 
+ category:"Art", 
+ date:new Date("2026-03-18"), 
+ price:70, 
+ capacity:80, 
+ location:{city:"KL"} 
+},
+{ 
+ _id:"e9", 
+ title:"AI Bootcamp", 
+ category:"Technology", 
+ date:new Date("2026-07-01"), 
+ price:200, 
+ capacity:60,  
+ location:{city:"KL"} 
+},
+{ 
+ _id:"e10", 
+ title:"Fashion Show", 
+ category:"Fashion", 
+ date:new Date("2026-04-20"), 
+ price:110, 
+ capacity:120,  
+ location:{city:"KL"} 
+}
+])
+
+
+//bookings
+//insertOne
+db.bookings.insertOne([
+  { 
+     userId:"u1", 
+     eventId:"e1", 
+     tickets:2, 
+     totalPrice:300, 
+     status:"confirmed" 
+  }
+])
+
+//insertMany
+db.bookings.insertMany([
+  { 
+    userId:"u2", 
+    eventId:"e2", 
+    tickets:1, 
+    totalPrice:120, 
+    status:"confirmed" 
+  },
+  { 
+    userId:"u3", 
+    eventId:"e3", 
+    tickets:3, 
+    totalPrice:240, 
+    status:"cancelled" 
+  },
+  { 
+    userId:"u4", 
+    eventId:"e1", 
+    tickets:1, 
+    totalPrice:150, 
+    status:"confirmed" 
+  },
+  { 
+    userId:"u5", 
+    eventId:"e2", 
+    tickets:2, 
+    totalPrice:240, 
+    status:"confirmed" 
+  },
+  { 
+    userId:"u6", 
+    eventId:"e4", 
+    tickets:1, 
+    totalPrice:60, 
+    status:"confirmed" 
+  },
+  { 
+    userId:"u7", 
+    eventId:"e5", 
+    tickets:4, 
+    totalPrice:360, 
+    status:"cancelled" 
+  },
+  { 
+    userId:"u8", 
+    eventId:"e6", 
+    tickets:2, 
+    totalPrice:100, 
+    status:"confirmed" 
+  },
+  { 
+    userId:"u9", 
+    eventId:"e7", 
+    tickets:1, 
+    totalPrice:100, 
+    status:"confirmed" 
+  },
+  { 
+    userId:"u10", 
+    eventId:"e8", 
+    tickets:2, 
+    totalPrice:140, 
+    status:"confirmed" 
+  },
+  { 
+    userId:"u1", 
+    eventId:"e9", 
+    tickets:1, 
+    totalPrice:200, 
+    status:"cancelled" 
+  },
+  { 
+    userId:"u2", 
+    eventId:"e10", 
+    tickets:1, 
+    totalPrice:110, 
+    status:"cancelled" 
+  },
+  { 
+    userId:"u3", 
+    eventId:"e5", 
+    tickets:2, 
+    totalPrice:180, 
+    status:"confirmed" 
+  },
+  { 
+    userId:"u4", 
+    eventId:"e6", 
+    tickets:3, 
+    totalPrice:150, 
+    status:"cancelled" 
+  },
+  { 
+    userId:"u5", 
+    eventId:"e7", 
+    tickets:2, 
+    totalPrice:200, 
+    status:"confirmed" 
+  },
+  { 
+    userId:"u6", 
+    eventId:"e8", 
+    tickets:1, 
+    totalPrice:70, 
+    status:"cancelled" 
+  },
+  { 
+    userId:"u7", 
+    eventId:"e9", 
+    tickets:2, 
+    totalPrice:400, 
+    status:"confirmed" 
+  },
+  { 
+    userId:"u8", 
+    eventId:"e10", 
+    tickets:1, 
+    totalPrice:110, 
+    status:"confirmed" 
+  },
+  { 
+    userId:"u9", 
+    eventId:"e3", 
+    tickets:1, 
+    totalPrice:80, 
+    status:"cancelled" 
+  },
+  { 
+    userId:"u10", 
+    eventId:"e4", 
+    tickets:2, 
+    totalPrice:120, 
+    status:"confirmed" 
+  }
+])
+
+
+
+//reviews
+//insertOne
+db.reviews.insertMany([
+  { 
+    userId:"u2", 
+    eventId:"e2", 
+    rating:5, 
+    comment:"Excellent" 
+  }
+])
+
+//insertMany
+db.reviews.insertMany([
+  { 
+    userId:"u4", 
+    eventId:"e1", 
+    rating:4, 
+    comment:"Very fun" 
+  },
+  { 
+    userId:"u5", 
+    eventId:"e2", 
+    rating:4, 
+    comment:"Useful" 
+  },
+  { 
+    userId:"u6", 
+    eventId:"e4", 
+    rating:5, 
+    comment:"Loved it" 
+  },
+  { 
+    userId:"u8", 
+    eventId:"e6", 
+    rating:3, 
+    comment:"Good" 
+  },
+  { 
+    userId:"u9", 
+    eventId:"e7", 
+    rating:1, 
+    comment:"It's a mess" 
+  },
+  { 
+    userId:"u10", 
+    eventId:"e8", 
+    rating:5, 
+    comment:"Amazing" 
+  },
+  { 
+    userId:"u3", 
+    eventId:"e5", 
+    rating:4, 
+    comment:"Good" 
+  },
+  { 
+    userId:"u5", 
+    eventId:"e7", 
+    rating:4, 
+    comment:"Enjoyed" 
+  },
+  { 
+    userId:"u7", 
+    eventId:"e9", 
+    rating:2, 
+    comment:"Boring" 
+  }
+])
+
+
+//B2 Query
+//$gt
+db.reviews.find({rating: { $gt: 4 }})
+
+//$lt
+db.reviews.find({"rating":{$lt:3}})
+
+//$or
+db.events.find({
+  $or:
+    [
+      {category:"Music"},
+      {category:"Fashion"}
+    ]
+})
+
+//$and
+db.bookings.findOne({
+  $and: [
+    { userId: "u5" },
+    { eventId: "e7" },
+    { tickets: { $gt: 1 } }
+  ]
+})
+
+//B3 Update
+//$inc
+db.bookings.updateOne(
+  {userId: "u2",eventId:"e2"},
+  {$inc:{tickets:1,totalPrice:120}}
+)
+
+//$set
+db.bookings.updateOne(
+  { userId: "u3", eventId: "e3" },
+  { $set: { status: "confirmed" } }
+)
+
+//B4 Delete
+//deleteOne() (not yet)
+db.bookings.deleteOne({
+  userId: "u2",
+  eventId: "e10",
+  status: "cancelled"
+})
+
+
+//deleteMany(not yet)
+db.bookings.deleteMany({status:"cancelled"})
+
+//C2 Aggregation
+//$match
+db.bookings.aggregate([
+  { $match: { status: "confirmed" } },
+  { $group: { _id: null, totalConfirmedBookings: { $sum: 1 } } }
+])
+
+//$group
+db.events.aggregate([
+  {$group:{_id:"$location.city",totalEvents:{$sum:1}}}
+])
+
+//C3 Sorting
+//descending
+db.reviews.find().sort({ rating: -1 })
+
+
+
+
+
+//MINE
+
+//B2 Query
+//$gt
+db.reviews.find({rating: { $gt: 4 }})
+
+//$and
+db.bookings.findOne({
+  $and: [
+    { userId: "u5" },
+    { eventId: "e7" },
+    { tickets: { $gt: 1 } }
+  ]
+})
+
+//B3 Update
+//$set
+db.bookings.updateOne(
+  { userId: "u3", eventId: "e3" },
+  { $set: { status: "confirmed" } }
+)
+
+//B4 Delete
+db.bookings.deleteOne({
+  userId: "u2",
+  eventId: "e10",
+  status: "cancelled"
+})
+
+//C2 Aggregation
+//$match
+db.bookings.aggregate([
+  { $match: { status: "confirmed" } },
+  { $group: { _id: null, totalConfirmedBookings: { $sum: 1 } } }
+])
+
+//C3 Sorting
+//descending
+db.reviews.find().sort({ rating: -1 })
+
+
