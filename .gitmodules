@@ -1,6 +1,3 @@
-[submodule "GroupProject_TVETMARA"]
-	path = GroupProject_TVETMARA
-	url = https://github.com/lauyankai/tvetmara
 [submodule "Year 3/SEM 2/Application Development/GroupProject_TVETMARA"]
 	path = Year 3/SEM 2/Application Development/GroupProject_TVETMARA
 	url = https://github.com/lauyankai/tvetmara
