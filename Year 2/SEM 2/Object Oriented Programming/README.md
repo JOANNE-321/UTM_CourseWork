@@ -29,87 +29,96 @@ The course emphasized both theoretical understanding and practical implementatio
 
 ## 🧪 Laboratory Exercises
 
-### Lab 1: OOP Fundamentals
+### Lab 1: Object-Oriented Programming Fundamentals
 
-This lab introduced the basic concepts of object-oriented programming and Java class design.
+This lab introduced the core concepts of object-oriented programming using Java.
 
-### Key Learning Outcomes
+#### Key Learning Outcomes
 
-- Class and object creation
-- Instance variables and methods
-- Constructors
-- Getters and setters
-- Encapsulation principles
-- Access modifiers
-
----
-
-### Advanced OOP Exercises
-
-The later laboratory activities focused on more advanced OOP concepts and practical system development.
-
-### Topics Covered
-
-- Method overloading
-- Static and non-static members
-- Array manipulation
-- Helper methods
-- Object relationships
-- Java collections
-- Error detection and debugging
-
-### Key Learning Outcomes
-
-- Object-oriented design
-- Code reusability
-- Program organization
-- Problem-solving using Java
-- Software development best practices
+* Class and object creation
+* Instance variables and methods
+* Constructors
+* Getters and setters
+* Encapsulation
+* Access modifiers
+* Static and non-static members
+* Method overloading
 
 ---
 
-## 🏪 Share Store System
+### Lab 2: Java Arrays and Problem Solving
 
-One of the practical exercises involved developing a Share Store System consisting of multiple classes such as Store, SpaceLot, Member, and Item.
+This lab focused on array manipulation, debugging, and algorithm implementation using Java.
 
-### Skills Developed
+#### Key Learning Outcomes
 
-- Class design
-- Association relationships
-- Aggregation relationships
-- List management
-- Object referencing
-- System modelling
-
-### Key Takeaway
-
-This exercise demonstrated how multiple classes interact to form a complete software system while applying object-oriented principles.
+* Array declaration and initialization
+* Array traversal techniques
+* Error identification and correction
+* Helper method development
+* Logical problem solving
 
 ---
 
-## 🏫 School Management System
+### Lab 3: Share Store System Development
 
-Another exercise focused on implementing various class relationships within a School Management System.
+This lab required the implementation of a complete object-oriented system consisting of Store, SpaceLot, Member, and Item classes.
 
-### OOP Concepts Applied
+#### Key Learning Outcomes
 
-- Association
-- Aggregation
-- Composition
-- Inheritance
-- Polymorphism
+* Object-oriented system design
+* Association and aggregation relationships
+* Object referencing
+* List management
+* Class interaction and collaboration
 
-### Key Learning Outcomes
+#### Key Takeaway
 
-- Understanding relationships between classes
-- Applying inheritance hierarchies
-- Method overriding
-- Polymorphic behavior
-- Object-oriented modelling
+This activity demonstrated how multiple classes can work together to form a complete information system using object-oriented principles.
 
-### Key Takeaway
+---
 
-This activity strengthened my understanding of how object-oriented concepts are applied in real-world software systems.
+### Lab 4: School Management System
+
+This lab focused on modelling class relationships within a School Management System.
+
+#### OOP Concepts Applied
+
+* Association
+* Aggregation
+* Composition
+* Inheritance
+* Polymorphism
+
+#### Key Learning Outcomes
+
+* Class relationship modelling
+* Method overriding
+* Inheritance hierarchy design
+* Polymorphic behavior
+* Software architecture concepts
+
+#### Key Takeaway
+
+This exercise strengthened my understanding of how real-world systems are represented through object-oriented models.
+
+---
+
+### Lab 5: Error Detection and Code Completion
+
+This lab involved identifying programming errors, completing missing statements, and debugging Java programs.
+
+#### Key Learning Outcomes
+
+* Debugging techniques
+* Error analysis
+* Program testing
+* Code correction
+* Software maintenance
+
+#### Key Takeaway
+
+The activity improved my ability to identify issues, troubleshoot programs, and produce more reliable software solutions.
 
 ---
 
