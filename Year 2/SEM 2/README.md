@@ -1,4 +1,4 @@
-## 📚 Semester 2
+# 📚 Year 2 Semester 2
 
 During Semester 2, I was exposed to a combination of technical, analytical, and professional development courses. The semester strengthened my knowledge in Object-Oriented Programming, Operating Systems, Data Mining, Data Analytics Programming, and communication skills while also providing exposure to entrepreneurship and event management through the Technopreneurship Seminar.
 
