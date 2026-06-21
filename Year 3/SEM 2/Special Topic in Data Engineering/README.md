@@ -16,8 +16,7 @@ Special Topic in Data Engineering
     ├── Tutorial 2 Apache.pdf
     ├── Tutorial 3 AI Algorithm.pdf
     ├── Tutorial 4 Claude to Pipeline.pdf
-    ├── Tutorial Article.pdf
-    └── read.md
+    └── Tutorial Article.pdf
 ```
 
 ---
