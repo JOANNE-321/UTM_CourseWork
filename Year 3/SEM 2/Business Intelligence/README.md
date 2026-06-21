@@ -54,7 +54,7 @@ I learned that high-quality data preparation is essential because accurate analy
 
 ---
 
-## 📊 Phase 3: Visualization & Dashboard Development
+## 📊 Phase 3: Visualization & Dashboard Development (Power BI)
 
 This phase involved creating interactive dashboards and visualizations using Power BI.
 
