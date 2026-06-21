@@ -138,6 +138,49 @@ The PPG project was the most valuable practical component of this course. My tea
 The project demonstrated how data engineering supports business decision-making by transforming raw operational data into meaningful and actionable insights.
 
 ---
+## 🏢 Industry Visit: PPG
+
+The industry visit to PPG provided valuable exposure to how data and technology are utilized in a real manufacturing environment. Through this visit, I gained a better understanding of business processes, inventory management, production operations, and how data-driven decision making supports organizational performance.
+
+### Key Learning Outcomes
+
+* Understanding real-world industrial operations.
+* Learning how data supports business decision-making.
+* Exposure to inventory and production management processes.
+* Understanding the role of data engineering in industry.
+
+The visit helped bridge the gap between classroom concepts and real industrial practices.
+
+---
+
+## 🎤 Industry Talk: iZeno
+
+The industry talk conducted by iZeno introduced students to current technologies and career opportunities in the data and technology industry. The session provided insights into digital transformation, data solutions, and industry expectations for future graduates.
+
+### Key Learning Outcomes
+
+* Understanding current industry trends and technologies.
+* Learning about career pathways in the technology sector.
+* Exposure to real-world industry challenges.
+* Understanding the skills required by employers.
+
+The talk motivated me to continuously improve both my technical and soft skills to remain competitive in the industry.
+
+---
+
+## 🎤 Industry Talk: TM (Telekom Malaysia)
+
+The industry talk by Telekom Malaysia provided valuable insights into how technology and data are used to support large-scale digital services and telecommunications infrastructure. The session highlighted the importance of innovation, digital transformation, and data-driven strategies in modern organizations.
+
+### Key Learning Outcomes
+
+* Understanding the role of data in digital transformation.
+* Learning how technology supports large-scale business operations.
+* Exposure to industry best practices and emerging technologies.
+* Understanding the importance of continuous learning in the technology field.
+
+The talk broadened my perspective on the diverse applications of data engineering and technology across different industries.
+
 
 # 💡 B. Suggested Improvements
 
