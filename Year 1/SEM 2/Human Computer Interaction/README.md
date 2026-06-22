@@ -21,74 +21,133 @@ Human Computer Interaction
 
 ---
 
-# 🎯 Summary of What I Have Gained from This Course
+# 🎯 Course Overview
 
-The Human Computer Interaction (HCI) course provided valuable understanding of user experience (UX) design principles, interaction design processes, and usability evaluation techniques used in interactive system development. Throughout the semester, I learned how to design systems that focus on user needs, usability, accessibility, and overall user satisfaction.
+The Human Computer Interaction (HCI) course focuses on designing interactive systems that are effective, efficient, and user-friendly. The course emphasizes understanding user needs, applying user-centred design principles, and evaluating system usability to improve overall user experience.
 
-The course introduced important concepts such as human behaviour, cognitive processes, user-centred design, prototyping, usability testing, and interface evaluation. Through assignments and project-based learning activities, I gained practical experience in designing and evaluating interactive systems from a user perspective.
+Throughout the semester, I learned how to analyze user requirements, design intuitive interfaces, develop prototypes, and conduct usability evaluations to ensure that systems meet user expectations and usability standards.
 
 ---
 
-## 📝 Assignments
+# 📝 Assignments
 
-The assignments focused on understanding HCI principles, usability concepts, and user-centred design approaches. Through these activities, I learned how to analyze user requirements, evaluate interface designs, and identify factors that influence user experience.
+The assignments focused on applying HCI theories and usability principles to real-world scenarios. These activities strengthened my understanding of human factors, interaction design, interface evaluation, and user-centred design methodologies.
 
 ### Skills Developed
 
-- User-centred design
-- Interface evaluation
-- Critical thinking
-- Design analysis
-- Communication and reporting skills
+* User-Centred Design (UCD)
+* Interface Evaluation
+* Human Factors Analysis
+* Usability Principles
+* Critical Thinking
+* Technical Report Writing
 
 ---
 
-## 💻 HCI Project
+# 💻 HCI Project – Ecosia Search Engine Redesign
 
-The HCI project was the major practical component of this course. The project involved multiple stages of the UX design process, including requirements gathering, conceptual design, prototyping, usability evaluation, and iterative improvements.
+The main project involved redesigning the Ecosia mobile application to improve usability, functionality, and overall user experience while supporting Ecosia's environmental sustainability mission.
 
-### Key Learning Activities
+### Project Objectives
 
-#### 🔍 Requirements Gathering
+* Improve search experience and navigation.
+* Enhance image search functionality.
+* Improve search history management.
+* Apply user-centred design principles.
+* Evaluate usability through user testing.
 
-- Identifying user needs and expectations
-- Understanding target users
-- Defining system requirements
+### Features Redesigned
 
-#### 🎨 Design and Prototyping
+#### 📍 EcoMap (Search Location)
 
-- Sketching interface ideas
-- Creating wireframes and prototypes
-- Applying user-centred design principles
+* Integrated map navigation feature.
+* Multiple map views (standard, satellite, terrain).
+* Route guidance and transportation mode selection.
+* Improved location search experience.
 
-#### 🧪 Usability Evaluation
+#### 📸 Image Searching
 
-- Conducting usability testing
-- Collecting user feedback
-- Identifying usability issues
-- Improving design based on evaluation results
+* Search using uploaded images.
+* Camera and gallery integration.
+* High-definition image search support.
+* Related image recommendations.
 
-### Skills Developed
+#### 📚 Search History
 
-- User experience (UX) design
-- Interaction design
-- Prototyping
-- Usability testing
-- Problem-solving
-- Creativity and innovation
-- Teamwork and collaboration
-- Presentation skills
-
-### Key Takeaway
-
-The project demonstrated that successful system development is not only about functionality but also about creating interfaces that are intuitive, efficient, accessible, and enjoyable for users.
+* History tracking and management.
+* Calendar-based filtering.
+* Search history categorization.
+* Delete selected history records.
 
 ---
 
-## 🌟 Personal Reflection
+# 🔄 Design Process
 
-One of the most valuable lessons I learned from this course is the importance of understanding users before designing a system. Through the project and assignments, I realized that even technically correct systems may fail if they do not meet user expectations or provide a positive user experience.
+The project followed a User-Centred Design (UCD) approach:
 
-The course enhanced my creativity, analytical thinking, communication, and teamwork skills through collaborative design activities and project discussions. It also helped me develop a greater appreciation for the role of usability and accessibility in software development.
+1. User Analysis
+2. Persona Development
+3. Task Analysis
+4. Storyboard Design
+5. Sketching and Wireframing
+6. Interactive Prototyping (Figma)
+7. Usability Testing
+8. Design Refinement
 
-Overall, this course successfully enhanced both my theoretical understanding and practical competency in Human Computer Interaction, user experience design, and usability evaluation. The knowledge gained will be highly beneficial for future software development and system design projects.
+---
+
+# 🧪 Usability Evaluation
+
+Usability testing was conducted to evaluate the effectiveness of the redesigned features.
+
+### Tasks Evaluated
+
+* Search Location
+* Image Searching
+* Search History
+
+### Outcomes
+
+* Users successfully completed all assigned tasks.
+* Positive feedback was received regarding usability and interface design.
+* Several improvements were identified and incorporated into the final prototype.
+
+---
+
+# 🛠️ Tools and Technologies
+
+* Figma
+* User-Centred Design (UCD)
+* Wireframing
+* Storyboarding
+* Prototyping
+* Usability Testing
+
+---
+
+# 🌟 Skills Gained
+
+Through this course and project, I developed practical skills in:
+
+* User Experience (UX) Design
+* Interaction Design
+* Prototyping and Wireframing
+* Usability Testing
+* User Research
+* Problem Solving
+* Team Collaboration
+* Presentation and Communication
+
+---
+
+# 💭 Personal Reflection
+
+One of the most valuable lessons learned from this course is that successful software systems must be designed around user needs rather than solely focusing on technical functionality. Through the Ecosia redesign project, I gained first-hand experience in understanding user behaviour, identifying usability issues, and designing solutions that improve the overall user experience.
+
+The course enhanced my ability to think critically from a user's perspective and strengthened my understanding of how usability, accessibility, and interaction design contribute to successful software development. These skills will be highly valuable in future software engineering and data-driven system development projects.
+
+---
+
+# 🚀 Key Takeaway
+
+A technically functional system is not necessarily a successful system. Effective Human Computer Interaction focuses on creating interfaces that are intuitive, accessible, efficient, and enjoyable for users while meeting both user and business objectives.
