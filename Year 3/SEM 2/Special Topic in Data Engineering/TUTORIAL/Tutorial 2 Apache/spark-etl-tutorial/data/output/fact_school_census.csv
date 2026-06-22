@@ -1,0 +1,6 @@
+year_id,school_id,location_id,education_stage_id,student_count,teacher_count
+2,4,4,1,180,15
+2,3,0,0,250,20
+0,5,1,2,90,8
+1,1,2,2,120,10
+1,2,3,1,300,25

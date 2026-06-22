@@ -1,0 +1,6 @@
+school_id,school_name,year,region,state,city,school_type,education_stage,student_count,teacher_count
+1,Alpha School,2020,North,State A,City A,Public,Kindergarten,120,10
+2,Beta School,2020,South,State B,City B,Private,Primary,300,25
+3,Gamma School,2021,North,State A,City C,Public,Secondary,250,20
+4,Delta School,2021,East,State C,City D,Public,Primary,180,15
+5,Echo School,2022,West,State D,City E,Private,Kindergarten,90,8

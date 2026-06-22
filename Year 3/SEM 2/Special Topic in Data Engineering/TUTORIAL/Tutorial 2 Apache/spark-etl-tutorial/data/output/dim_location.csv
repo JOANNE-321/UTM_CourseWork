@@ -1,0 +1,6 @@
+region,state,city,location_id
+North,State A,City C,0
+West,State D,City E,1
+North,State A,City A,2
+South,State B,City B,3
+East,State C,City D,4
